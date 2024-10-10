@@ -1,5 +1,8 @@
 <template>
-  <div :class="container({ type, padding, bgColor })" :style="{ backgroundColor: customColor }">
+  <div
+    :class="container({ type, padding, bgColor, size })"
+    :style="{ backgroundColor: customColor, display: 'flex', flexDirection: 'column' }"
+  >
     <slot></slot>
   </div>
 </template>
@@ -15,6 +18,7 @@ const props = defineProps<{
   type?: ContainerProps['type']
   padding?: ContainerProps['padding']
   bgColor?: ContainerProps['bgColor']
+  size?: ContainerProps['size']
   customColor?: string
 }>()
 
