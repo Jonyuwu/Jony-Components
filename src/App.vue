@@ -27,7 +27,7 @@
           />
         </JCardMedia>
 
-        <JCardBody
+        <JCardBody size="md"
           ><p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis laboriosam veniam
             modi quam voluptate consequatur eaque tempore necessitatibus fuga placeat sapiente id
@@ -35,7 +35,7 @@
           </p></JCardBody
         >
 
-        <JCardFooter class="bg-red-600"> Footer</JCardFooter>
+        <JCardFooter position="start" class="bg-red-600"> Footer</JCardFooter>
       </JCardContainer>
     </div>
   </div>

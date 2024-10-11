@@ -1,6 +1,16 @@
 <template>
-  <dive class="text-xs font-sans h-auto max-w-52 break-words">
+  <dive :class="body({ size })">
     <slot></slot>
   </dive>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { type VariantProps } from 'class-variance-authority'
+import { body } from '@/cva/Card/J-card-body'
+import { defineProps } from 'vue'
+
+type BodyProps = VariantProps<typeof body>
+
+defineProps<{
+  size?: BodyProps['size']
+}>()
+</script>
