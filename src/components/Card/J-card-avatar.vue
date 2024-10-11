@@ -1,6 +1,16 @@
 <template>
-  <dive class="h-10 w-10 rounded-full bg-gray-500 mb-4 flex">
+  <dive :class="avatar({ position })">
     <slot></slot>
   </dive>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { type VariantProps } from 'class-variance-authority'
+import { avatar } from '@/cva/Card/J-card-header/J-card-avatar'
+import { defineProps } from 'vue'
+
+type AvatarProps = VariantProps<typeof avatar>
+
+defineProps<{
+  position?: AvatarProps['position']
+}>()
+</script>

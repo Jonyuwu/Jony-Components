@@ -1,5 +1,5 @@
 <template>
-  <dive class="h-40 w-52 bg-blue-500 flex">
+  <dive class="h-auto w-auto">
     <slot></slot>
   </dive>
 </template>

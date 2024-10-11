@@ -1,5 +1,5 @@
 <template>
-  <dive class="h-auto w-auto mt-4 flex flex-row">
+  <dive class="h-auto w-auto justify-self-start">
     <slot></slot>
   </dive>
 </template>

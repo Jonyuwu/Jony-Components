@@ -1,6 +1,6 @@
 import { cva } from 'class-variance-authority'
 
-export const container = cva('h-auto w-auto ', {
+export const container = cva('h-auto w-auto grid ', {
   variants: {
     type: {
       rounded: 'rounded-md',
@@ -44,17 +44,17 @@ export const container = cva('h-auto w-auto ', {
       success: 'bg-green-700',
       warning: 'bg-orange-500'
     },
-    size: {
-      sm: 'h-auto max-w-60',
-      md: 'h-auto min-w-60 max-w-80',
-      bg: 'h-auto min-w-80 max-w-96',
-      auto: 'h-auto w-auto'
+    space: {
+      sm: 'gap-2',
+      md: 'gap-4',
+      bg: 'gap-6',
+      xl: 'gap-8'
     }
   },
   defaultVariants: {
     type: 'roundedShadow',
     padding: 'md',
     bgColor: 'withe',
-    size: 'auto'
+    space: 'md'
   }
 })
