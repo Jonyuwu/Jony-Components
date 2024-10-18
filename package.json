@@ -17,7 +17,8 @@
     "class-variance-authority": "^0.7.0",
     "jest": "^29.7.0",
     "primeicons": "^7.0.0",
-    "vue": "^3.4.29"
+    "vue": "^3.4.29",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",

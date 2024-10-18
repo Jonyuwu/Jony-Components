@@ -6,10 +6,11 @@ export const body = cva('h-auto', {
       sm: 'text-xs max-w-32 break-words',
       md: 'text-sm max-w-56 break-words',
       bg: 'text-base max-w-72 break-words',
-      xl: 'text-lg max-w-96 break-words'
+      xl: 'text-lg max-w-96 break-words',
+      auto: 'text-sm break-words'
     }
   },
   defaultVariants: {
-    size: 'md'
+    size: 'auto'
   }
 })
