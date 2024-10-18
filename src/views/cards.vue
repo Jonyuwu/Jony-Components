@@ -101,7 +101,7 @@
       </JCardContainer>
 
       <JCardContainer
-        class="Card con opciones arriba"
+        class="Card con botones de accion"
         padding="sm"
         type="roundedShadow"
         bg-color="secondary_10"
@@ -124,6 +124,81 @@
               <div class="text-blue-500">Acreca de...</div></JCardHeaderAction
             >
           </JCardHeader>
+          <JCardBody size="auto"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam rerum, quisquam
+            aspernatur dolorum impedit similique ex esse iure veritatis nostrum hic alias, mollitia
+            reiciendis doloremque reprehenderit cum nihil cumque distinctio.</JCardBody
+          >
+          <JCardFooter position="end"><div>Boton 1 Boton 2</div></JCardFooter>
+        </JCardContainer>
+      </JCardContainer>
+
+      <JCardContainer
+        class="Cards con avatar"
+        padding="sm"
+        type="roundedShadow"
+        bg-color="secondary_10"
+      >
+        <JCardHeader>
+          <JCardTitle class="text-white">Card con avatar</JCardTitle>
+          <JCardHeaderAction
+            ><div class="text-white">Boton</div>
+            <div class="text-white">Boton</div></JCardHeaderAction
+          >
+        </JCardHeader>
+        <JCardContainer>
+          <JCardHeader>
+            <JCardAvatar></JCardAvatar>
+            <JCardTitleGroup>
+              <JCardTitle>Titulo</JCardTitle>
+              <JCardSubtitle>Subtitulo</JCardSubtitle>
+            </JCardTitleGroup>
+            <JCardHeaderAction
+              ><div class="text-blue-500">Ver mas</div>
+              <div class="text-blue-500">Acreca de...</div></JCardHeaderAction
+            >
+          </JCardHeader>
+          <JCardBody size="auto"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam rerum, quisquam
+            aspernatur dolorum impedit similique ex esse iure veritatis nostrum hic alias, mollitia
+            reiciendis doloremque reprehenderit cum nihil cumque distinctio.</JCardBody
+          >
+          <JCardFooter position="end"><div>Boton 1 Boton 2</div></JCardFooter>
+        </JCardContainer>
+      </JCardContainer>
+
+      <JCardContainer
+        class="Cards con foto"
+        padding="sm"
+        type="roundedShadow"
+        bg-color="secondary_10"
+      >
+        <JCardHeader>
+          <JCardTitle class="text-white">Card con imagen</JCardTitle>
+          <JCardHeaderAction
+            ><div class="text-white">Boton</div>
+            <div class="text-white">Boton</div></JCardHeaderAction
+          >
+        </JCardHeader>
+        <JCardContainer>
+          <JCardHeader>
+            <JCardAvatar></JCardAvatar>
+            <JCardTitleGroup>
+              <JCardTitle>Titulo</JCardTitle>
+              <JCardSubtitle>Subtitulo</JCardSubtitle>
+            </JCardTitleGroup>
+            <JCardHeaderAction
+              ><div class="text-blue-500">Ver mas</div>
+              <div class="text-blue-500">Acreca de...</div></JCardHeaderAction
+            >
+          </JCardHeader>
+          <JCardMedia>
+            <img
+              class="self-center justify-self-center w-full"
+              src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+              alt=""
+            />
+          </JCardMedia>
           <JCardBody size="auto"
             >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam rerum, quisquam
             aspernatur dolorum impedit similique ex esse iure veritatis nostrum hic alias, mollitia

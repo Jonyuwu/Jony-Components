@@ -1,8 +1,5 @@
 <template>
-  <div
-    :class="container({ type, padding, bgColor, space })"
-    :style="{ backgroundColor: customColor }"
-  >
+  <div :class="container({ type, padding, bgColor, space })">
     <slot></slot>
   </div>
 </template>
@@ -14,15 +11,10 @@ import { computed, defineProps } from 'vue'
 
 type ContainerProps = VariantProps<typeof container>
 
-const props = defineProps<{
+defineProps<{
   type?: ContainerProps['type']
   padding?: ContainerProps['padding']
   bgColor?: ContainerProps['bgColor']
   space?: ContainerProps['space']
-  customColor?: string
 }>()
-
-const customColor = computed(() => {
-  return props.customColor || ''
-})
 </script>
